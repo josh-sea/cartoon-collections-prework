@@ -20,12 +20,11 @@ def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   for i in 0...array.length
-    cheese_types.first do |j|
+    cheese_types.find do |j|
       if array[i] == j
         return array[i]
-      else
-        return nil
       end 
+      return nil
     end
   end
 end
