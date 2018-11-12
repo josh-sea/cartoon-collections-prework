@@ -23,6 +23,7 @@ def find_the_cheese(array)# code an argument here
     cheese_types.find do |j|
       if array[i] == j
         return array[i]
+      else
       end 
     end
     return nil
