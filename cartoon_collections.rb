@@ -24,6 +24,7 @@ def find_the_cheese(array)# code an argument here
       if array[i] == j
         return array[i]
       else
+        return nil 
       end 
     end
   end
